@@ -25,6 +25,24 @@ class MathUtilsTest {
         System.out.println("Test is done");
     }
 
+    @Nested
+    class addTest{
+
+        @Test
+        @DisplayName("test simple for positive addition")
+        void testAddPositive() {
+            int expected = 2;
+            assertEquals(expected, mathUtils.add(1, 1), "This should return the addition of two number");
+        }
+
+        @Test
+        @DisplayName("test simple for negative addition")
+        void testAddNegetive() {
+            int expected = -3;
+            assertEquals(expected, mathUtils.add(-1, -2), ()-> "This should return "+ expected + "the addition of two number" + -1 +"+"+ -2);
+        }
+    }
+
     @Test
     void testAdd() {
         int expected = 2;
@@ -54,9 +72,20 @@ class MathUtilsTest {
     @Test
     @DisplayName("test simple divide with assumptions")
     void testDivideAssumptions(){
-        assumeTrue(1==1);
+        boolean isServerRunning = true;
+        assumeTrue(isServerRunning);
         int expected = 2;
         assertEquals(expected, mathUtils.divide(4, 2), "Divide by zero should through arithmetic exception");
+    }
+
+    @Test
+    @DisplayName("test multiple multiplication")
+    void testMultiply(){
+        assertAll(
+                ()-> assertEquals(4, mathUtils.multiply(2, 2), "Positive multiplication"),
+                ()-> assertEquals(0, mathUtils.multiply(2, 0), "multiplication with zero"),
+                ()-> assertEquals(-2, mathUtils.multiply(2, -1), "multiplication with negative number")
+        );
     }
 
     @Test

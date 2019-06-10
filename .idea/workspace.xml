@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b0fcdd5-e2e6-4efa-af38-9aa979a77071" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MathUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MathUtilsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +23,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MathUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,15 +38,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MathUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+            <state relative-caret-position="350">
+              <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
               <folding>
                 <element signature="e#178#179#0" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
                 <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#2069#2070#0" expanded="true" />
+                <element signature="e#2104#2105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -74,6 +79,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/MathUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/MathUtilsTest.java" />
       </list>
     </option>
@@ -96,9 +102,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="410" />
-    <option name="y" value="72" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -156,6 +162,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../parabole/spring-triple-api-server" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,11 +176,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MathUtilsTest">
+  <component name="RunManager" selected="JUnit.MathUtilsTest (1)">
     <configuration name="All in junit-5-basics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-5-basics" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-5-basics" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MathUtilsTest" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:MathUtilsTest]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,6 +208,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MathUtilsTest (1)" />
         <item itemvalue="JUnit.MathUtilsTest" />
         <item itemvalue="JUnit.All in junit-5-basics" />
       </list>
@@ -208,12 +228,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MathUtilsTest - 2019.06.07 at 19h 52m 02s.xml">
-      <configuration name="MathUtilsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MathUtilsTest - 2019.06.07 at 19h 52m 44s.xml">
-      <configuration name="MathUtilsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MathUtilsTest - 2019.06.10 at 14h 02m 32s.xml">
       <configuration name="MathUtilsTest" configurationId="JUnit" />
     </history-entry>
@@ -229,9 +243,24 @@
     <history-entry file="MathUtilsTest - 2019.06.10 at 14h 36m 49s.xml">
       <configuration name="MathUtilsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MathUtilsTest - 2019.06.10 at 15h 28m 36s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.06.10 at 15h 29m 40s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.06.10 at 15h 49m 46s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.06.10 at 15h 50m 08s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest_(1) - 2019.06.10 at 15h 51m 02s.xml">
+      <configuration name="MathUtilsTest (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -268,17 +297,10 @@
     <SUITE FILE_PATH="coverage/junit_5_basics$All_in_junit_5_basics.ic" NAME="All in junit-5-basics Coverage Results" MODIFIED="1560155613577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/MathUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -289,17 +311,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MathUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MathUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+        <state relative-caret-position="350">
+          <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
           <folding>
             <element signature="e#178#179#0" expanded="true" />
             <element signature="e#231#232#0" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#2069#2070#0" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
           </folding>
         </state>
       </provider>
